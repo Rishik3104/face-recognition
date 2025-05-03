@@ -8,7 +8,6 @@ import time
 # Ensure the necessary directories 
 if not os.path.exists('data/'):
     os.makedirs('data/')
-
 # Load existing data if available
 if 'names.pkl' in os.listdir('data/') and 'faces_data.pkl' in os.listdir('data/'):
     with open('data/names.pkl', 'rb') as f:
