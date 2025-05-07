@@ -4,7 +4,6 @@ import pickle
 import numpy as np
 import os
 import time
-
 # Ensure the necessary directories 
 if not os.path.exists('data/'):
     os.makedirs('data/')
