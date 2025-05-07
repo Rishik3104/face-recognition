@@ -9,5 +9,4 @@ timestamp=datetime.fromtimestamp(ts).strftime("%H-%M-%S")
 
 df = pd.read_csv("Attendence/Attendence_" + date + ".csv")
 
-
 st.dataframe(df.style.highlight_max(axis=0))
