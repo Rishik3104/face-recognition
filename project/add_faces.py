@@ -98,5 +98,3 @@ if add_choice == 'yes':
 else:
     print("No new face data was added.")
 
-
-
